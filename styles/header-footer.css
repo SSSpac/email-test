@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: #bfffbc;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../pictures/repeat.jpeg);
+    background-repeat: repeat;
+ 
+}
+
+.header {
+    background:linear-gradient(
+    to right ,
+    navy 0%,
+    blue 5%,
+    brown 50%,
+    black 100%
+    );
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+    
+}
+a {
+    margin: 0 30px;
+    text-decoration: none;
+    color:greenyellow;
+    font-weight: 600;
+}
+a:hover {
+    text-decoration:overline;
+    color: rgb(0, 0, 0);
+}
+nav ul {
+    margin: 0;
+    padding: 0px;
+}
+  
+nav li {
+    display: inline-block;
+    text-decoration:none;
+}
+
+
+.nav-menu {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px;
+  
+}
+
+.header__page-title {
+    text-align: left;
+    font-family: fredoka;
+}
+h1 {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: medium;
+    text-align: right;
+    color: white;
+    margin: 0;
+    animation: colorChange;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.footer {
+    background-color:#a3995ce3 ;
+    color: black;
+    padding: 2px;
+    text-align: left;
+    margin: 5px;
+    border-radius: 15px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: medium;
+    position: relative; 
+  clear: both;
+  width: 100%;
+}
+
+
+@keyframes colorChange {
+    0% {
+        color: #f9f6fa;
+    }
+    10% {
+        color: #eaccf3;
+    }
+    20% {
+        color: #df92f4;
+    }
+
+    30% {
+        color: #ce62ec;
+    }
+
+    40% {
+        color: #c326ee;
+    }
+
+    50% {
+        color: #c800ff;
+    }
+
+    60% {
+        color: red;
+    }
+    
+    80%  {
+        color: #598ee3;
+        font-size: 2rem;
+        left: 40%;
+    }
+    
+    100% {
+        color: #00bbff;
+        right: 40%;
+    }   
+}
+
