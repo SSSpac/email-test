@@ -16,7 +16,6 @@ body {
     height: 100%;
     background-image: url(../pictures/repeat.jpeg);
     background-repeat: repeat;
- 
 }
 
 .header {
@@ -25,14 +24,13 @@ body {
     navy 0%,
     blue 5%,
     brown 50%,
-    black 100%
-    );
+    black 100%);
     margin: 0;
     padding: 0;
-    width: 100%;
-   
-    
+    width: 100%;   
 }
+
+
 a {
     margin: 0 30px;
     text-decoration: none;
@@ -43,28 +41,30 @@ a:hover {
     text-decoration:overline;
     color: rgb(0, 0, 0);
 }
+
+
 nav ul {
     margin: 0;
     padding: 0px;
 }
-  
+
 nav li {
     display: inline-block;
     text-decoration:none;
 }
 
-
 .nav-menu {
     display: flex;
     justify-content:space-evenly;
     margin: 10px;
-  
 }
 
 .header__page-title {
     text-align: left;
     font-family: fredoka;
 }
+
+
 h1 {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
@@ -90,8 +90,8 @@ h1 {
     font-weight: 600;
     font-style: medium;
     position: relative; 
-  clear: both;
-  width: 100%;
+    clear: both;
+    width: 100%;
 }
 
 
