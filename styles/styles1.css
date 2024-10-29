@@ -17,14 +17,13 @@
 
 .slideshow-container {
   position: relative;
-  max-width: 600px;
+  max-width: 80%;
   margin: auto;
   overflow: hidden;
 }
 
 .mySlides {
-  width: 100%;
-  height: 100%;
+ 
   opacity: 0;
   animation: slideAnimation 16s infinite;
 }
@@ -70,16 +69,14 @@ h4 {
   color: black;
   padding: 2px;
   text-align: left;
-  margin: 5px;
   border-radius: 15px;
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: medium;
   clear: both;
-  width: 100%;
-  top:400px;
-  position: relative;
+  
+  top: 400px;
 }
 
 

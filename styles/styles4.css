@@ -28,9 +28,8 @@
 }
 
 .first__image {
-    height: 500px;
     padding: 10px;
-    width: 100%;
+   
 }
 
 .main-container__second {
@@ -46,10 +45,9 @@
 }
 
 .second__image {
-    width: 1200px;
-    height: 500px;
+  
     padding: 10px;
-    width: 100%;
+   
 }
 
 .main-container__third {
@@ -64,8 +62,7 @@
 }
 
 .third__image {
-    width: 100%;
-    height: 500px;
+  
     padding: 10px;
 }
 

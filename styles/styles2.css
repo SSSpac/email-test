@@ -20,9 +20,7 @@ body {
     blue 5%,
     brown 50%,
     black 100%);
-    margin: 0;
-    padding: 0px;
-    width: 100%;   
+  
 }
 
 
@@ -38,10 +36,6 @@ a:hover {
 }
 
 
-nav ul {
-    margin: 0;
-    padding: 0px;
-}
 
 nav li {
     display: inline-block;
@@ -51,7 +45,13 @@ nav li {
 .nav-menu {
     display: flex;
     justify-content:space-evenly;
-    margin: 5px;
+    margin: 10px;
+}
+
+.nav-menu a.active {
+
+        color: #100f0f;
+        background-color: #007bff; /* Highlight color */
 }
 
 .header__page-title {
