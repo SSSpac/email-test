@@ -28,7 +28,6 @@
 
 .first__image {
     padding: 10px;
-   
 }
 
 .main-container__second {
@@ -44,7 +43,6 @@
 }
 
 .second__image {
-   
     padding: 10px;
 }
 
@@ -60,7 +58,6 @@
 }
 
 .third__image {
-
     padding: 10px;
 }
 
@@ -75,19 +72,5 @@
     margin: auto;
     justify-content: space-between;
 }
-
 }
-
-@keyframes fade {
-    0% { opacity: 0; }
-    10% { opacity: 1; }
-    30% { opacity: 1; }
-    40% { opacity: 0; }
-    50% { opacity: 1; }
-    60% { opacity: 1; }
-    80% { opacity: 0; }
-    90% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
 

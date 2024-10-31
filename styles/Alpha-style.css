@@ -23,7 +23,6 @@
 }
 
 .mySlides {
- 
   opacity: 0;
   animation: slideAnimation 16s infinite;
 }
@@ -57,28 +56,7 @@
   font-size: 20px;
   font-weight: 600;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
-
-h4 {
-    padding: 2px;
-}
-
-.footer1 {
-  background-color:#a3995ce3 ;
-  color: black;
-  padding: 2px;
-  text-align: left;
-  border-radius: 15px;
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: medium;
-  clear: both;
-  
-  top: 400px;
-}
-
 
 @media only screen and (min-width: 230px) and (max-width: 990px) {
 
@@ -87,7 +65,6 @@ h4 {
   ".." "main-content__slideshow";
 }
 }
-
   @keyframes slideAnimation {
     0% { opacity: 0; }
     5% { opacity: 1; }

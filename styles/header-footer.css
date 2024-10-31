@@ -31,9 +31,9 @@ body {
 }
 
 .nav-menu a.active {
-        color: #000000;
-        background-color: #007bff; 
-        border-bottom: 2px solid #0056b3
+    color: #000000;
+    background-color: #007bff; 
+    border-bottom: 2px solid #0056b3
 }
 
 a {
@@ -69,7 +69,6 @@ nav li {
     font-family: fredoka;
 }
 
-
 h1 {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
@@ -93,11 +92,10 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: medium;
-    position: relative; 
     clear: both;
-}
-
-
+    top: 400px;
+  }
+  
 @keyframes colorChange {
     0% {
         color: #f9f6fa;
